@@ -1,0 +1,8 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: customer_id_new
+    type: string
+    nullable: true
+    metadata: {}
