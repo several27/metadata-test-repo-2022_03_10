@@ -1,0 +1,45 @@
+name: github-test
+description: User fork
+version: 0.0.1
+author: maciej+execution_2022_03_10@prophecy.io
+workflows:
+  workflows/tessttest:
+    name: tessttest
+    description: ''
+    author: maciej+execution_2022_03_10@prophecy.io
+    mode: batch
+    language: scala
+    createdAt: '2022-03-11 00:10:47'
+    datasets:
+      inputs:
+      - 377/datasets/github-customers
+      outputs:
+      - 377/datasets/github-traget
+    dependencies: {}
+datasets:
+  datasets/github-customers:
+    name: github-customers
+    description: ''
+    author: maciej+execution_2022_03_10@prophecy.io
+    createdAt: '2022-03-11 00:12:23'
+    physicalDatasets:
+      dev:
+        fabricId: 58
+        datasetType: File
+        description: ''
+        author: maciej+execution_2022_03_10@prophecy.io
+        createdAt: '2022-03-11 00:12:23'
+  datasets/github-traget:
+    name: github-traget
+    description: ''
+    author: maciej+execution_2022_03_10@prophecy.io
+    createdAt: '2022-03-11 00:12:52'
+    physicalDatasets:
+      dev:
+        fabricId: 58
+        datasetType: File
+        description: ''
+        author: maciej+execution_2022_03_10@prophecy.io
+        createdAt: '2022-03-11 00:12:52'
+schedules: {}
+libraries: []
